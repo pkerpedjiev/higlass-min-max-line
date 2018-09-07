@@ -1,9 +1,9 @@
 import register from 'higlass-register';
 
-import LabelledPointTrack from './LabelledPointTrack';
+import MinMaxLineTrack from './MinMaxLineTrack';
 
 register({
-  name: 'LabelledPointTrack',
-  track: LabelledPointTrack,
-  config: LabelledPointTrack.config,
+  name: 'MinMaxLineTrack',
+  track: MinMaxLineTrack,
+  config: MinMaxLineTrack.config,
 });
